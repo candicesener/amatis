@@ -1,0 +1,36 @@
+
+.header-link{
+  padding: 10px 10px 12px 40px;
+  color: black;
+  font-family: "Arial";
+  display: flex;
+  h2{
+    font-size: 40px;
+  }
+
+  i{
+    font-size: 3.5em;
+    color:black;
+  }
+}
+
+.header{
+  background-color: #fff;
+  display:flex;
+  justify-content: space-between;
+
+  .header-left{
+    display:flex;
+    justify-content: flex-start;
+    width:50%;
+    min-width: 400px;
+  }
+  .header-right{
+    display:flex;
+    justify-content: flex-end;
+    width:50%;
+    min-width: 480px;
+
+
+  }
+}
